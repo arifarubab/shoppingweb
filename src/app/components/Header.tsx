@@ -18,17 +18,18 @@ export default function Home() {
         {/* Logo Section */}
         <div className="flex items-center">
           {/* Logo Text */}
-          <div className="logo font-sans text-xl font-bold mr-2">rubab club</div>
+          <div className="flex items-center">
+  <div className="logo font-sans text-xs mr-2">Rubab Elite Shop</div>
 
-          {/* Logo Image for Medium+ Screens */}
-          <Image
-            className="hidden md:block" /* Hidden on small screens */
-            width="30" /* Adjusted size */
-            height="30" /* Adjusted size */
-            src="/logo.png"
-            alt="Logo"
-          />
-        </div>
+  {/* Logo Image for all screens */}
+  <Image
+    width={30} // Adjusted size
+    height={30} // Adjusted size
+    src="/logo.png"
+    alt="Logo"
+  />
+</div>
+</div>
 
         {/* Desktop Navigation */}
         <nav className="hidden md:block">
