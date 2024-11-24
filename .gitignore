@@ -1,4 +1,4 @@
-# See https://help.github.com/articles/ignoring-files/ for more about ignoring files.
+# See https://github.com/arifarubab/shoppingweb.git/ for more about ignoring files.
 
 # dependencies
 /node_modules
@@ -18,6 +18,8 @@
 
 # misc
 .DS_Store
+.AppleDouble
+.LSOverride
 *.pem
 
 # debug
@@ -34,3 +36,10 @@ yarn-error.log*
 # typescript
 *.tsbuildinfo
 next-env.d.ts
+
+# IDE files
+.vscode/
+.idea/
+
+# Log files
+*.log
